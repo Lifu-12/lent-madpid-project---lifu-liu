@@ -1,4 +1,9 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="hl|jHw/G_G`|WOV03m/@">mySprite</variable><variable type="KIND_SpriteKind" id="NXcV!$(c+9DKy#xm/a5`">Player</variable><variable type="KIND_SpriteKind" id=",};`L@oT6H@A#2JDfdqK">Projectile</variable><variable type="KIND_SpriteKind" id="lI^FU#1kdwmFr!^(S*Yb">Food</variable><variable type="KIND_SpriteKind" id="svMZz_C#EDHvKX3wvuQh">Enemy</variable></variables><block type="pxt-on-start" id="4-(B!T)H(cq[!A8O:Q{W" x="0" y="0"><statement name="HANDLER"><block type="game_control_sprite" id="+$Dx/+zOwfbG{#VY)@w+"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="u*ai)uDooA~=(smT`%os"><field name="VAR" id="hl|jHw/G_G`|WOV03m/@">mySprite</field></block></value><value name="vx"><shadow type="math_number" id="+xsnEM~)@CD8Q.9d+Orb"><field name="NUM">100</field></shadow></value><value name="vy"><shadow type="math_number" id="g]~!vmi1q@fWjTJB%-I{"><field name="NUM">100</field></shadow></value><next><block type="variables_set" id="%L4GmhF=?m#^lMD5ko8M"><field name="VAR" id="hl|jHw/G_G`|WOV03m/@">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="]JsG32QR(}82:RB];y@+"><value name="img"><shadow type="screen_image_picker" id="{xsATq[6usnyOZ`nxW:!"><field name="img">img`
+// Auto-generated code. Do not edit.
+namespace myImages {
+
+    helpers._registerFactory("image", function(name: string) {
+        switch(helpers.stringTrim(name)) {
+            case "image1":return img`
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
@@ -15,7 +20,8 @@
 . . . . f f f f f f f f . . . . 
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
-`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="!GBIKXBEk_DEyd_r]UB."><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="gamesetbackgroundimage" id="nz,pGI!,0C;=FI;k;KZy"><value name="img"><shadow type="background_image_picker" id="81j^CJ}JGC4FA3ui]Il+"><field name="img">img`
+`;
+            case "image2":return img`
 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
@@ -136,4 +142,17 @@
 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
-`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image2"}}</data></shadow></value><next><block type="tilemap_editor" id="`^#bI7kx0kJa~FBU@4oN"><field name="tilemap">tilemap`level1`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level1"}}</data><next><block type="spritesetsetstayinscreen" id="*[[J~zaS#QRFSAaK^|]Z"><value name="sprite"><block type="variables_get" id="Eh(G~{Eh_*~=?L7).kQ="><field name="VAR" id="hl|jHw/G_G`|WOV03m/@">mySprite</field></block></value><value name="on"><shadow type="toggleOnOff" id="4rnq)Ih/|]fHiIw!TG-$"><field name="on">true</field></shadow></value><next><block type="spritesetsetbounceonwall" id="w2?9j[`fVVEsAzRq(`oe"><value name="sprite"><block type="variables_get" id="iDf3Mr_Q1jYk{VFCpBvF"><field name="VAR" id="hl|jHw/G_G`|WOV03m/@">mySprite</field></block></value><value name="on"><shadow type="toggleOnOff" id="Sw]b!CBrr{mNT%$g6-NL"><field name="on">true</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
+`;
+        }
+        return null;
+    })
+
+    helpers._registerFactory("animation", function(name: string) {
+        switch(helpers.stringTrim(name)) {
+
+        }
+        return null;
+    })
+
+}
+// Auto-generated code. Do not edit.
